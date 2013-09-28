@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dip" >
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/latitude" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/latitude"
+        android:layout_below="@+id/latitude"
+        android:layout_marginTop="14dp"
+        android:text="@string/longitude" />
+
+    <TextView
+        android:id="@+id/ketinggian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/longitude"
+        android:layout_below="@+id/longitude"
+        android:layout_marginTop="16dp"
+        android:text="@string/ketinggian" />
+
+    <TextView
+        android:id="@+id/keakuratan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ketinggian"
+        android:layout_below="@+id/ketinggian"
+        android:layout_marginTop="14dp"
+        android:text="@string/keakuratan" />
+
+    <TextView
+        android:id="@+id/provider_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/keakuratan"
+        android:layout_below="@+id/keakuratan"
+        android:layout_marginTop="16dp"
+        android:text="@string/provider_gps" />
+    
+</RelativeLayout>

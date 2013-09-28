@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dip" >
+
+    <TextView
+        android:id="@+id/titik_asal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/titik_asal" />
+
+    <TextView
+        android:id="@+id/titik_tujuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titik_asal"
+        android:layout_below="@+id/titik_asal"
+        android:layout_marginTop="24dp"
+        android:text="@string/titik_tujuan" />
+
+    <TextView
+        android:id="@+id/jarak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titik_tujuan"
+        android:layout_below="@+id/titik_tujuan"
+        android:layout_marginTop="16dp"
+        android:text="@string/jarak" />
+
+    <TextView
+        android:id="@+id/rute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jarak"
+        android:layout_below="@+id/jarak"
+        android:layout_marginTop="17dp"
+        android:text="@string/rute" />
+
+    <TextView
+        android:id="@+id/rute1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jarak"
+        android:layout_below="@+id/jarak"
+        android:layout_marginTop="59dp"
+        android:text="@string/rute" />
+    
+</RelativeLayout>

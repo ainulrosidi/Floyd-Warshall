@@ -1,0 +1,69 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item android:id="@+id/info" android:orderInCategory="100" android:showAsAction="always" android:icon="@drawable/ic_menu_info_details" android:title="@string/info">      
+        
+        <menu>
+            <item android:id="@+id/map_file_properties" android:title="@string/map_file_properties" android:showAsAction="never" android:orderInCategory="100"/>
+            <item android:id="@+id/about" android:orderInCategory="100" android:title="@string/about" android:showAsAction="never"/>
+        </menu>
+    </item>
+    
+    <item android:id="@+id/screenshot" android:orderInCategory="100" android:showAsAction="always" android:icon="@drawable/ic_menu_camera" android:title="@string/screenshot">
+        <menu>
+			<item android:id="@+id/menu_screenshot_jpeg" android:title="@string/menu_screenshot_jpeg" android:orderInCategory="100" android:showAsAction="never"/>
+			<item android:id="@+id/menu_screenshot_png" android:title="@string/menu_screenshot_png" android:orderInCategory="100" android:showAsAction="never"/>
+		</menu>open_file
+    </item>
+	
+	<item android:id="@+id/menu_position" android:orderInCategory="100" android:title="@string/menu_position" android:icon="@drawable/map_icon2" android:showAsAction="always">
+				<menu>
+	<item android:id="@+id/show_mylocation" android:orderInCategory="100" android:showAsAction="never" android:title="@string/show_mylocation"></item>
+				    
+    <item android:id="@+id/bersihkan_penanda"    android:orderInCategory="100" android:showAsAction="never" android:title="@string/bersihkan_penanda"></item>
+
+    <item android:id="@+id/enter_node" android:orderInCategory="100" android:showAsAction="never" android:title="@string/enter_node"></item>
+    
+    <item android:id="@+id/map_matching" android:orderInCategory="100" android:showAsAction="never" android:title="@string/map_matching"></item>
+    
+<!--     <item android:id="@+id/map_matching2titik" android:orderInCategory="100" android:showAsAction="never" android:title="@string/map_matching2titik"></item> -->
+    
+    <item android:id="@+id/floyd_warshall" android:orderInCategory="100" android:showAsAction="never" android:title="@string/floyd_warshall"></item>
+    
+<!--     <item android:id="@+id/contoh" android:orderInCategory="100" android:showAsAction="never" android:title="@string/contoh"></item> -->
+    
+    <item android:id="@+id/batas_peta" android:orderInCategory="100" android:showAsAction="never" android:title="@string/batas_peta"></item>
+    
+<!--     <item android:id="@+id/informasi_lokasi" android:orderInCategory="100" android:showAsAction="never" android:title="@string/informasi_lokasi"></item> -->
+    
+<!--     <item android:id="@+id/show_rute" android:orderInCategory="100" android:showAsAction="never" android:title="@string/show_rute"></item> -->
+    
+<!--     <item android:id="@+id/menampilkan_node" android:orderInCategory="100" android:showAsAction="never" android:title="@string/menampilkan_node"></item> -->
+    
+    <item android:id="@+id/enter_coordinate" android:orderInCategory="100" android:showAsAction="never" android:title="@string/enter_coordinate"></item>
+    
+    <item android:id="@+id/tarik_garis" android:orderInCategory="100" android:showAsAction="never" android:title="@string/tarik_garis"></item>
+   
+     <item android:id="@+id/last_known_location" android:title="@string/last_known_location" android:orderInCategory="100"></item>
+     
+    <item android:id="@+id/map_file_centre" android:orderInCategory="100" android:showAsAction="never" android:title="@string/map_file_center"></item>
+<!--     <item android:id="@+id/menu_position_my_location_enable" android:title="@string/menu_position_my_location_enable" /> -->
+<!-- 			<item android:id="@+id/menu_position_my_location_disable" android:title="@string/menu_position_my_location_disable" /> -->
+				</menu>
+			</item>		
+<item android:id="@+id/menu_mapfile" android:title="@string/menu_mapfile" android:icon="@drawable/open_file" android:showAsAction="always"/>
+<item android:id="@+id/menu_preferences" android:title="@string/menu_preferences" android:icon="@drawable/ic_menu_preferences" android:showAsAction="never" android:orderInCategory="100"/>
+
+	<item android:id="@+id/menu_render_theme" android:title="@string/menu_render_theme" android:icon="@drawable/ic_menu_mapmode" android:showAsAction="always">	
+	    	<menu>
+			<item android:id="@+id/menu_render_theme_osmarender" android:title="@string/menu_render_theme_osmarender" android:orderInCategory="100" android:showAsAction="never"/>
+			<item android:id="@+id/menu_render_theme_select_file" android:title="@string/menu_render_theme_select_file" android:orderInCategory="100" android:showAsAction="never"/>
+		</menu>
+	</item>
+	
+</menu>
